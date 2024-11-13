@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    text-align: center;
+    background-color: grey; /* Grey background for the box */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 60px; /* Adjusts alignment with the logo */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white; /* Background color of the input box */
+    border: 2px solid black; /* Border color set to black */
+    border-radius: 4px;
+}
